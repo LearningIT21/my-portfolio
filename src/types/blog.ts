@@ -1,5 +1,3 @@
-import { PortableTextBlock } from "sanity";
-
 export type Author = {
   name: string;
   image: string;
@@ -14,7 +12,7 @@ export type Blog = {
   title: string;
   slug: any;
   metadata?: string;
-  body?: PortableTextBlock[];
+  body?: string;
   mainImage?: any;
   author?: Author;
   tags?: string[];

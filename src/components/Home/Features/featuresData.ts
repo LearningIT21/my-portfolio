@@ -16,7 +16,7 @@ const featuresData: Feature[] = [
   },
   {
     id: 3,
-    title: "Auth, DB, Sanity Blog",
+    title: "Auth & Database",
     description:
       "Originality is key, and our AI writing tool helps you maintain it",
     icon: "/images/features/icon-03.svg",

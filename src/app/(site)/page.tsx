@@ -29,7 +29,6 @@ export default function Home() {
       </section>
       <Clients />
       <Support />
-      {integrations.isSanityEnabled && <BlogSection />}
       <CallToAction />
       <Newsletter />
     </>

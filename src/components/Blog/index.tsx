@@ -1,10 +1,9 @@
-import { getPosts } from "@/sanity/sanity-utils";
 import { Blog } from "@/types/blog";
 import SectionTitle from "../Common/SectionTitle";
 import SingleBlog from "./SingleBlog";
 
 export default async function BlogSection() {
-  const posts = await getPosts();
+  const posts: Blog[] = [];
 
   return (
     <section className="py-20 lg:py-25">

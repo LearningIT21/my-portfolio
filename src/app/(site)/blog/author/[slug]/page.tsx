@@ -1,7 +1,6 @@
 import BlogGridContainer from "@/components/Blog/BlogGridContainer";
 import Breadcrumb from "@/components/Breadcrumb";
-import { getPostsByAuthor } from "@/sanity/sanity-utils";
-import { Author } from "@/types/blog";
+import { Author, Blog } from "@/types/blog";
 import React from "react";
 
 type Props = {
@@ -11,7 +10,7 @@ type Props = {
 export async function generateMetadata(props: Props) {
   const params = await props.params;
   const { slug } = params;
-  const posts = await getPostsByAuthor(slug);
+  const posts: Blog[] = [];
 
   return {
     title: `Author: ${slug} | Blog`,
@@ -26,8 +25,8 @@ const AuthorPage = async (props: Props) => {
     slug
   } = params;
 
-  const posts = await getPostsByAuthor(slug);
-  const author: any = posts[0]?.author || "Author";
+  const posts: Blog[] = [];
+  const author: any = "Author";
 
   return (
     <>
