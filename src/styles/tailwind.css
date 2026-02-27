@@ -25,16 +25,16 @@
   --color-dark-6: #191625;
   --color-dark-7: #0f0c1f;
   --color-dark-8: #100d20;
-  --color-dark: #030014;
+  --color-dark: #111827;
 
-  --color-purple: #8646f4;
-  --color-purple-dark: #6d28d9;
-  --color-purple-dark-2: #5b21b6;
-  --color-purple-light: #a78bfa;
-  --color-purple-light-2: #c4b5fd;
-  --color-purple-light-3: #ddd6fe;
-  --color-purple-light-4: #ede9fe;
-  --color-purple-light-5: #f5f3ff;
+  --color-purple: #2dd4bf;
+  --color-purple-dark: #14b8a6;
+  --color-purple-dark-2: #0d9488;
+  --color-purple-light: #5eead4;
+  --color-purple-light-2: #99f6e4;
+  --color-purple-light-3: #ccfbf1;
+  --color-purple-light-4: #e6fffa;
+  --color-purple-light-5: #f0fdfa;
 
   --color-pink: #d345f8;
   --color-pink-dark: #c814f6;
@@ -147,7 +147,7 @@
 }
 
 @utility dropdown {
-  @apply flex-col gap-1 min-w-max lg:w-[208px] mt-2 lg:mt-0 bg-[#1C192C] shadow-lg ease-in duration-300 p-3 rounded-lg left-0 hidden
+  @apply flex-col gap-1 min-w-max lg:w-[208px] mt-2 lg:mt-0 bg-[#2dd4bf] shadow-lg ease-in duration-300 p-3 rounded-lg left-0 hidden
     lg:translate-y-10 lg:opacity-0 lg:invisible lg:absolute lg:flex
     lg:group-hover:translate-y-3 lg:group-hover:opacity-100 lg:group-hover:visible;
 }
