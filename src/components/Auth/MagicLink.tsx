@@ -77,7 +77,7 @@ const MagicLink = () => {
           value={email}
           onChange={(e) => setEmail(e.target.value)}
           // required
-          className="w-full rounded-lg border border-white/[0.12] bg-transparent py-3.5 pl-14.5 pr-4 font-medium text-white outline-hidden focus:border-purple focus-visible:shadow-none"
+          className="w-full rounded-lg border border-white/[0.12] bg-transparent py-3.5 pl-14.5 pr-4 font-medium text-white outline-hidden focus:border-[var(--color-purple)] focus-visible:shadow-none"
         />
       </div>
 

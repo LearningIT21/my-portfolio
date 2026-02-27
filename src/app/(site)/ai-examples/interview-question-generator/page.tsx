@@ -98,7 +98,7 @@ const InterviewQuestionGeneratorPage = () => {
                   onChange={handleChange}
                   value={data.description}
                   name="description"
-                  className="min-h-[160px] rounded-lg border border-white/[0.12] bg-dark-7 px-5 py-3 text-white outline-hidden focus:border-purple"
+                  className="min-h-[160px] rounded-lg border border-white/[0.12] bg-dark-7 px-5 py-3 text-white outline-hidden focus:border-[var(--color-purple)]"
                   placeholder="Interview description"
                   required
                 />

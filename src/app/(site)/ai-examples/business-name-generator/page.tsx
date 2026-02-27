@@ -116,7 +116,7 @@ const BusinessNameGeneratorPage = () => {
                   name="keyword"
                   id="keyword"
                   type="text"
-                  className="rounded-lg border border-white/[0.12] bg-dark-7 px-5 py-3 text-white outline-hidden focus:border-purple"
+                  className="rounded-lg border border-white/[0.12] bg-dark-7 px-5 py-3 text-white outline-hidden focus:border-[var(--color-purple)]"
                   placeholder="Type your business keyword"
                   required
                 />

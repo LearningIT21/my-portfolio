@@ -106,7 +106,7 @@ const ProductNameGeneratorPage = () => {
                   value={data.description}
                   name="description"
                   type="text"
-                  className="rounded-lg border border-white/[0.12] bg-dark-7 px-5 py-3 text-white outline-hidden focus:border-purple"
+                  className="rounded-lg border border-white/[0.12] bg-dark-7 px-5 py-3 text-white outline-hidden focus:border-[var(--color-purple)]"
                   placeholder="Type your business keyword"
                   required
                 />
@@ -121,7 +121,7 @@ const ProductNameGeneratorPage = () => {
                   value={data.seedWords}
                   name="seedWords"
                   type="text"
-                  className="rounded-lg border border-white/[0.12] bg-dark-7 py-3 pl-5 text-opacity-10 outline-hidden focus:border-purple"
+                  className="rounded-lg border border-white/[0.12] bg-dark-7 py-3 pl-5 text-opacity-10 outline-hidden focus:border-[var(--color-purple)]"
                   placeholder="Type your Seed Words"
                 />
               </div>

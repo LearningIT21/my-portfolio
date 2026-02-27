@@ -6,7 +6,7 @@ const SocialSignup = () => {
     <>
       <button
         onClick={() => signIn("google")}
-        className="flex w-full items-center justify-center gap-3 rounded-lg border border-white/[0.12] p-3.5 font-medium text-white duration-300 ease-in hover:border-purple"
+        className="flex w-full items-center justify-center gap-3 rounded-lg border border-white/[0.12] p-3.5 font-medium text-white duration-300 ease-in hover:border-[var(--color-purple)]"
       >
         <svg
           width="23"
@@ -49,7 +49,7 @@ const SocialSignup = () => {
 
       <button
         onClick={() => signIn("github")}
-        className="mt-4 flex w-full items-center justify-center gap-3 rounded-lg border border-white/[0.12] p-3.5 font-medium text-white duration-300 ease-in hover:border-purple"
+        className="mt-4 flex w-full items-center justify-center gap-3 rounded-lg border border-white/[0.12] p-3.5 font-medium text-white duration-300 ease-in hover:border-[var(--color-purple)]"
       >
         <svg
           fill="currentColor"

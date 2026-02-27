@@ -119,7 +119,7 @@ const ResetPassword = ({ token }: { token: string }) => {
                         value={data.newPassword}
                         onChange={handleChange}
                         name="newPassword"
-                        className="w-full rounded-lg border border-white/[0.12] bg-transparent py-3.5 pl-14.5 pr-4 font-medium text-white outline-hidden focus:border-purple focus-visible:shadow-none"
+                        className="w-full rounded-lg border border-white/[0.12] bg-transparent py-3.5 pl-14.5 pr-4 font-medium text-white outline-hidden focus:border-[var(--color-purple)] focus-visible:shadow-none"
                       />
                     </div>
                     <div className="relative mb-4">
@@ -143,7 +143,7 @@ const ResetPassword = ({ token }: { token: string }) => {
                         value={data.ReNewPassword}
                         name="ReNewPassword"
                         onChange={handleChange}
-                        className="w-full rounded-lg border border-white/[0.12] bg-transparent py-3.5 pl-14.5 pr-4 font-medium text-white outline-hidden focus:border-purple focus-visible:shadow-none"
+                        className="w-full rounded-lg border border-white/[0.12] bg-transparent py-3.5 pl-14.5 pr-4 font-medium text-white outline-hidden focus:border-[var(--color-purple)] focus-visible:shadow-none"
                       />
                     </div>
 

@@ -122,7 +122,7 @@ const ContentGeneratorPage = () => {
                 value={data.contentTopic}
                 name="contentTopic"
                 onChange={handleChange}
-                className="min-h-[160px] w-full rounded-lg border border-white/[0.12] bg-dark-7 p-5 text-white outline-hidden focus:border-purple"
+                className="min-h-[160px] w-full rounded-lg border border-white/[0.12] bg-dark-7 p-5 text-white outline-hidden focus:border-[var(--color-purple)]"
                 placeholder="Type your topic"
                 required
               />

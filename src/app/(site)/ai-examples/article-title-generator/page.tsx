@@ -107,7 +107,7 @@ const ArticleTitleGeneratorPage = () => {
                   value={data.articleTopic}
                   name="articleTopic"
                   type="text"
-                  className="rounded-lg border border-white/[0.12] bg-dark-7 px-5 py-3 text-white outline-hidden focus:border-purple"
+                  className="rounded-lg border border-white/[0.12] bg-dark-7 px-5 py-3 text-white outline-hidden focus:border-[var(--color-purple)]"
                   placeholder="Type article topic here"
                   required
                 />

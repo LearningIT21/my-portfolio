@@ -99,7 +99,7 @@ const SpreadsheetGeneratorPage = () => {
                   value={data.description}
                   name="description"
                   placeholder="Type spreadsheet description"
-                  className="min-h-[160px] rounded-lg border border-white/[0.12] bg-dark-7 px-5 py-3 text-white outline-hidden focus:border-purple"
+                  className="min-h-[160px] rounded-lg border border-white/[0.12] bg-dark-7 px-5 py-3 text-white outline-hidden focus:border-[var(--color-purple)]"
                   required
                 />
               </div>

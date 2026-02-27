@@ -37,7 +37,7 @@ const APIkeyModal = ({ handleModal }: { handleModal: () => void }) => {
           <form onSubmit={handleSubmit} className="flex justify-between gap-3">
             <input
               onChange={(e) => setKey(e.target.value)}
-              className="w-full rounded-lg border border-white/[0.12] bg-dark-6 px-6 py-3 text-white outline-hidden focus:border-purple"
+              className="w-full rounded-lg border border-white/[0.12] bg-dark-6 px-6 py-3 text-white outline-hidden focus:border-[var(--color-purple)]" 
               type="text"
               placeholder="API-xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
               required

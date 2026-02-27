@@ -75,7 +75,7 @@ const Support = () => {
                       name="name"
                       placeholder="Enter your Name"
                       required
-                      className="w-full rounded-lg border border-white/[0.12] bg-white/[0.05] px-6 py-3 text-white outline-hidden focus:border-purple"
+                      className="w-full rounded-lg border border-white/[0.12] bg-white/[0.05] px-6 py-3 text-white outline-hidden focus:border-[var(--color-purple)]"
                     />
                   </div>
                 </div>
@@ -93,7 +93,7 @@ const Support = () => {
                       name="email"
                       placeholder="Enter your Email"
                       required
-                      className="w-full rounded-lg border border-white/[0.12] bg-white/[0.05] px-6 py-3 text-white outline-hidden focus:border-purple"
+                      className="w-full rounded-lg border border-white/[0.12] bg-white/[0.05] px-6 py-3 text-white outline-hidden focus:border-[var(--color-purple)]"
                     />
                   </div>
                 </div>
@@ -111,7 +111,7 @@ const Support = () => {
                       placeholder="Type your message"
                       rows={6}
                       required
-                      className="w-full rounded-lg border border-white/[0.12] bg-white/[0.05] px-6 py-5 outline-hidden focus:border-purple"
+                      className="w-full rounded-lg border border-white/[0.12] bg-white/[0.05] px-6 py-5 outline-hidden focus:border-[var(--color-purple)]"
                     />
                   </div>
                 </div>
