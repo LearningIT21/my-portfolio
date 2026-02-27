@@ -40,14 +40,11 @@ const Hero = () => {
             </span>
           </span>
           <h1 className='xl:text-heading-1 mb-6 text-3xl font-extrabold text-white sm:text-5xl'>
-            OpenAI + Next.js SaaS Boilerplate and Starter Kit
+            AI-Powered Saas Platform Built with Next.js and OpenAI
           </h1>
 
           <p className='mx-auto mb-9 max-w-[500px] font-medium md:text-lg'>
-            Ideal for developers looking to build SaaS applications using OpenAI
-            and Next.js, this starter kit comes with pre-configured and
-            pre-built examples, making it easier to quickly kickstart your AI
-            startup.
+            A production-ready SaaS application featuring authentication, reusable component architecture, API integration, and responsive UI design - built to demostrate real-world frontend development skills.
           </p>
 
           <Link
