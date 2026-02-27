@@ -235,7 +235,7 @@ const Signup = () => {
 
                     <p className="mt-5 text-center font-medium text-white">
                       Already have an account?{" "}
-                      <Link href="/auth/signin" className="text-purple">
+                      <Link href="/auth/signin" className="text-[var(--color-purple)]">
                         Sign in Here
                       </Link>
                     </p>

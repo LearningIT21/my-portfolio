@@ -5,7 +5,7 @@ import Breadcrumb from "@/components/Breadcrumb";
 import CallToAction from "@/components/CallToAction";
 import Clients from "@/components/Home/Clients";
 import Features from "@/components/Home/Features";
-import Reviews from "@/components/Home/Reviews";
+// import Reviews from "@/components/Home/Reviews";
 import Newsletter from "@/components/Newsletter";
 import { Metadata } from "next";
 
@@ -24,7 +24,7 @@ const AboutPage = () => {
       <Video />
       <Team />
       <section className="relative z-20 overflow-hidden pb-20">
-        <Reviews />
+        {/* <Reviews /> */}
       </section>
       <Clients />
       <CallToAction />

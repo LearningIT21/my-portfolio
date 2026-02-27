@@ -4,7 +4,7 @@ import Clients from "@/components/Home/Clients";
 import Features from "@/components/Home/Features";
 import FeaturesList from "@/components/Home/FeaturesList";
 import Hero from "@/components/Home/Hero";
-import Reviews from "@/components/Home/Reviews";
+// import Reviews from "@/components/Home/Reviews";
 import Newsletter from "@/components/Newsletter";
 import Pricing from "@/components/Pricing";
 import Support from "@/components/Support";
@@ -25,7 +25,7 @@ export default function Home() {
       <FeaturesList />
       <Pricing />
       <section className="relative z-20 overflow-hidden pb-20 pt-22.5 lg:pt-27.5 xl:pt-32.5 2xl:pt-45">
-        <Reviews />
+        {/* <Reviews /> */}
       </section>
       <Clients />
       <Support />

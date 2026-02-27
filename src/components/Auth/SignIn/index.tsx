@@ -190,7 +190,7 @@ const Signin = () => {
                                 <div
                                   className={`mr-2 flex h-5 w-5 items-center justify-center rounded-md border ${
                                     remember
-                                      ? "border-purple bg-purple"
+                                      ? "border-[var(--color-purple)] bg-[var(--color-purple)]"
                                       : "border-white/[0.12]"
                                   }`}
                                 >
@@ -221,7 +221,7 @@ const Signin = () => {
                           </div>
                           <Link
                             href="/auth/forgot-password"
-                            className="text-sm font-medium text-purple"
+                            className="text-sm font-medium text-[var(--color-purple)]"
                           >
                             Forgot Password?
                           </Link>
@@ -238,7 +238,7 @@ const Signin = () => {
 
                     <p className="mt-5 text-center font-medium text-white">
                       Don{`'`}t have an account?{" "}
-                      <Link href="/auth/signup" className="text-purple">
+                      <Link href="/auth/signup" className="text-[var(--color-purple)]">
                         Sign Up for Free
                       </Link>
                     </p>

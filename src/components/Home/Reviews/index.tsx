@@ -3,7 +3,7 @@
 import SectionTitle from "@/components/Common/SectionTitle";
 import { useEffect, useState } from "react";
 import SingleReview from "./SingleReview";
-import reviewsData from "./reviewsData";
+// import reviewsData from "./reviewsData";
 
 const Reviews = () => {
   const [showContent, setShowContent] = useState(false);
@@ -35,7 +35,7 @@ const Reviews = () => {
             !showContent ? "max-h-[855px] overflow-hidden" : ""
           }`}
         >
-          <div className="space-y-7.5">
+          {/* <div className="space-y-7.5">
             {reviewsData.slice(0, 9).map((review) => (
               <SingleReview key={review.id} review={review} />
             ))}
@@ -51,7 +51,7 @@ const Reviews = () => {
             {reviewsData.slice(18, 27).map((review) => (
               <SingleReview key={review.id} review={review} />
             ))}
-          </div>
+          </div> */}
         </div>
 
         <div
